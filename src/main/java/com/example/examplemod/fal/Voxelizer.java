@@ -29,6 +29,7 @@ public class Voxelizer {
     public List<Voxel> voxelize(List<GlbParser.Triangle> triangles, int gridSize) {
         if (triangles.isEmpty()) return Collections.emptyList();
 
+
         // Find bounding box of all vertices
         float minX = Float.MAX_VALUE, minY = Float.MAX_VALUE, minZ = Float.MAX_VALUE;
         float maxX = -Float.MAX_VALUE, maxY = -Float.MAX_VALUE, maxZ = -Float.MAX_VALUE;
