@@ -89,7 +89,7 @@ public class ModCommands {
 
                         // /generate generate <size> <prompt>
                         .then(literal("generate")
-                                .then(argument("size", IntegerArgumentType.integer(8, 128))
+                                .then(argument("size", IntegerArgumentType.integer(8, 256))
                                         .then(argument("prompt", StringArgumentType.greedyString())
                                                 .executes(ctx -> {
                                                     CommandSourceStack source = ctx.getSource();
