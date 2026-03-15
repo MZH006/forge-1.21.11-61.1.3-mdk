@@ -1,4 +1,4 @@
-# AI Builder — Minecraft Forge Mod
+# GenCraft
 
 A Minecraft Forge mod that generates 3D structures in-game from a text prompt using AI.
 
